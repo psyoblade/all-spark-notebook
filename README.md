@@ -1,6 +1,9 @@
 # Spark on Docker
 > AWS EC2 환경에서 노트북을 통해 S3 로부터 데이터를 읽고 쓸 수 있는 스파크 도커 이미지를 생성합니다
 
+## 이미지 변경내역
+* v1.0 : Spark 3.1 환경 적용 (data-engineer-all-spark-notebook:1.0)
+
 ## How to run images
 ```bash
 $ docker-compose -f docker-compose.yml up -d
