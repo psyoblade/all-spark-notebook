@@ -1,4 +1,4 @@
-ARG BASE_CONTAINER=psyoblade/data-engineer-pyspark-notebook:1.0
+ARG BASE_CONTAINER=psyoblade/data-engineer-pyspark-notebook:1.1
 FROM $BASE_CONTAINER
 
 LABEL maintainer="Suhyuk Park <park.suhyuk@gmail.com>"
